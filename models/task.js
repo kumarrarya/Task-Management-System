@@ -21,4 +21,4 @@ const TaskSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model("Task", TaskSchema);  // Capitalize the model name for convention
+module.exports = mongoose.model("task", TaskSchema);  // Capitalize the model name for convention

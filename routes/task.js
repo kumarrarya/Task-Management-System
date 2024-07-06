@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Task= require("../models/Task");
+const Task= require("../models/task");
 const User= require("../models/user");
 const authenticateToken = require("./auth");
 router.post("/create_task",authenticateToken, async (req,res)=>{
